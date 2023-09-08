@@ -94,7 +94,7 @@ main tbody {
 }
 
 main table td {
-  border: 1px solid #969292;
+  border: 1px solid #086460;
   padding: 10px;
   vertical-align: middle
 }
@@ -270,8 +270,8 @@ header > div:first-of-type {
 
 .buttons > a {
   padding: 10px 15px;
-  color: #fff;
-  background-color: #EDE04C;
+  color: #EDE04C;
+  background-color: #082C2A;
   text-decoration: none;
   font-weight: bold;
 }
@@ -325,6 +325,10 @@ header > div:first-of-type {
   min-width: 15em;
   position: relative;
   margin-top: 16px;
+}
+
+p, h1, h2, h3, li, span, tr, td {
+  color: #555;
 }
 
 .caret-rotate {
