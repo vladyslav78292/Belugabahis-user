@@ -57,14 +57,12 @@ header > div:nth-of-type(2) {
 h1 {
   font-size: 3em;
   font-weight: 800;
-  margin-top: 20px;
   text-align: center;
-  position: relative;
-  z-index: 100;
+  color: #fff;
 }
 
 main {
-  padding: 90px 100px;
+  padding: 60px 100px;
   margin: 0 auto;
 }
 
@@ -147,7 +145,6 @@ h2, h3 {
 
 .dropdown__element > div > p {
   margin: 0;
-  color: #fff;
 }
 
 .caret {
@@ -309,7 +306,6 @@ header > div:first-of-type {
 
 .dropdown__element > div > p {
   margin: 0;
-  color: #fff;
 }
 
 .caret {
@@ -327,7 +323,7 @@ header > div:first-of-type {
   margin-top: 16px;
 }
 
-p, h1, h2, h3, li, span, tr, td {
+p, h2, h3, li, span, tr, td {
   color: #555;
 }
 
@@ -422,8 +418,12 @@ footer > p {
 }
 
 @media (max-width: 1024px) {
-  .mobile_container {
+  .mobile_container, header > div:first-of-type > div {
     flex-direction: column;
+  }
+
+  header > div:first-of-type > div {
+    gap: 20px;
   }
 
   .options_container {
